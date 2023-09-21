@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45494A"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="295dp"
+        android:layout_height="291dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="347dp"
+        android:contentDescription="@string/todo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/_3_sem_t_tulo_20230905073853"
+        tools:ignore="MissingConstraints,VisualLintBounds,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="296dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="55dp"
+        android:contentDescription="@string/todo33"
+        android:onClick="@string/h_muitos_anos_a_lua_e_o_sol_se_apaixonaram_o_sol_ficou_encantado_pela_beleza_da_lua_e_a_iluminava_de_paix_o_a_lua_ficou_sonhando_com_o_calor_do_sol_e_chorava_baixinho_querendo_se_aproximar_do_seu_amado_era_um_amor_bonito_que_dava_gosto_de_ver_mas_eles_se_amavam_dist_ncia_o_sol_ent_o_mandou_os_passarinhos_pedirem_a_lua_em_casamento_aquela_revoada_de_p_ssaros_fez_um_v_o_fant_stico_at_encontrar_a_lua_chegaram_e_pediram_a_lua_em_casamento_numa_linda_can_o_a_lua_ficou_cheia_de_alegria_o_casamento_foi_marcado_e_o_c_u_se_enfeitou_as_estrelas_brilharam_ainda_mais_e_as_nuvens_criaram_desenhos_no_firmamento_seria_uma_festan_a_que_duraria_um_ano_inteiro_mas_o_mar_n_o_gostou_e_avisou_aos_noivos_o_casamento_de_voc_s_n_o_pode_acontecer_esse_encontro_vai_destruir_o_mundo_o_amor_ardente_do_sol_vai_queimar_tudo_e_a_lua_com_as_suas_l_grimas_inundaria_toda_a_terra_por_isso_n_o_podem_se_casar_a_lua_apagaria_o_fogo_e_o_sol_evaporaria_a_gua_a_lua_n_o_se_importou_com_isso_queria_casar_de_qualquer_jeito_estava_completamente_apaixonada_mas_o_sol_ficou_com_medo_amava_muito_a_lua_mas_n_o_queria_destruir_o_mundo_separaram_se_ent_o_a_lua_para_um_lado_e_o_sol_para_o_outro_quando_a_lua_come_ava_a_aparecer_no_c_u_o_sol_ia_embora_a_lua_ainda_tentou_convencer_o_sol_mas_n_o_deu_jeito_e_ela_tenta_at_hoje_e_por_isso_que_de_vez_em_quando_a_lua_e_o_sol_ficam_juntos_no_c_u_mas_a_tudo_escurece_e_o_sol_foge_de_sua_amada_na_primeira_separa_o_a_lua_chorou_todo_o_dia_e_toda_a_noite_foi_ent_o_que_as_l_grimas_correram_por_cima_da_terra_at_o_mar_mas_o_mar_que_estava_zangado_com_a_lua_n_o_deixou_que_as_l_grimas_se_misturassem_com_as_suas_guas_e_hoje_o_mar_ainda_tenta_acabar_com_as_l_grimas_da_lua_com_um_estrondo_forte_que_os_ndios_chamam_de_pororoca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/_3_sem_t_tulo_20230905073240"
+        tools:ignore="MissingConstraints,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btn_letra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:background="#745B80"
+        android:text="@string/letra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.939"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_hist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="87dp"
+        android:background="@color/_745b80"
+        android:text="@string/historia"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateSpeakableTextCheck,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

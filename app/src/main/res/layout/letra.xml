@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/letra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="28dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="118dp"
+        android:layout_height="227dp"
+        android:contentDescription="@string/todo8"
+        app:srcCompat="@drawable/hot_air_balloon_cartoon_illustration_vector_cartoon_red_balloon_material_998f5dd42af94eb1c2c8999eb03f39b5"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="176dp"
+        android:layout_height="234dp"
+        android:contentDescription="@string/todo9"
+        app:srcCompat="@drawable/_3_sem_t_tulo_20230905073853"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="158dp"
+        android:layout_height="186dp"
+        android:contentDescription="@string/todo10"
+        app:srcCompat="@drawable/kisspng_cloud_drawing_clip_art_5aeeaee26a11e3_1944124115255917784345"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="158dp"
+        android:layout_height="186dp"
+        android:contentDescription="@string/todo11"
+        app:srcCompat="@drawable/kisspng_cloud_drawing_clip_art_5aeeaee26a11e3_1944124115255917784345"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="331dp"
+        android:layout_height="536dp"
+        android:text="@string/o_sol_pediu_a_lua_em_casamento_disse_que_j_a_amava_h_muito_tempo_desde_a_poca_dos_dinossauros_pterod_tilos_tiranossauros_quando_nem_existia_a_bicicleta_nem_o_velotrol_nem_a_motocicleta_mas_a_lua_achou_aquilo_t_o_estranho_uma_bola_quente_que_nem_toma_banho_imagine_s_tenha_d_pois_meu_cora_o_n_o_pertence_a_ningu_m_s_a_inspira_es_de_todos_os_casais_dos_grandes_poetas_aos_mais_normais_sai_pra_la_rapaz_o_sol_pediu_a_lua_em_casamento_e_a_lua_disse_n_o_sei_n_o_sei_n_o_sei_me_d_um_tempo_e_24_horas_depois_o_sol_nasceu_a_lua_se_p_s_e_o_sol_pediu_a_lua_em_casamento_e_a_lua_disse_n_o_sei_n_o_sei_n_o_sei_me_d_um_tempo_o_sol_congelou_seu_cora_o_mas_o_astro_rei_com_todos_os_seus_planetas_cometas_asteroides_terra_marte_v_nus_net_nos_e_ur_nos_foi_se_apaixonar_justo_por_ela_que_o_despreza_e_o_deixa_esperar_acontece_que_o_sol_n_o_se_conformou_foi_pedir_ao_vento_para_lhe_ajudar_mas_o_vento_nem_se_quer_parou_pois_n_o_tinha_tempo_para_conversar_o_sol_sem_saber_mais_o_que_fazer_tanto_amor_pra_dar_e_come_ou_a_chorar_e_a_derreter_come_ou_a_chover_e_a_molhar_e_a_escurecer_o_sol_pediu_a_lua_em_casamento_e_a_lua_disse_n_o_sei_n_o_sei_n_o_sei_me_d_um_tempo_e_24_horas_se_passaram_e_outra_vez_o_sol_se_p_s_a_lua_nasceu_e_de_novo_e_de_novo_e_de_novo_o_sol_pediu_a_lua_em_casamento_e_a_lua_disse_n_o_sei_n_o_sei_n_o_sei_me_d_um_tempo_o_sol_congelou_seu_cora_o_se_a_lua_n_o_te_quer_tudo_bem_voc_lindo_cara_e_seu_brilho_vai_muito_mais_al_m_um_dia_voc_vai_encontrar_algu_m_que_com_certeza_vai_te_amar_tamb_m_o_pequenino"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints,TextSizeCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <ImageButton
+        android:id="@+id/btn_youtube"
+        android:layout_width="109dp"
+        android:layout_height="103dp"
+        android:contentDescription="@string/abrir_o_youtube"
+        android:src="@drawable/bdd3119395735997ee6154357975ea25"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/voltar"
+        android:text="Menu"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
